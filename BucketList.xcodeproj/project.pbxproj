@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8429CA4B26308905006CA448 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CA4A26308905006CA448 /* MapView.swift */; };
+		8429CA4E26309429006CA448 /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CA4D26309429006CA448 /* MKPointAnnotation-ObservableObject.swift */; };
+		8429CA51263094CC006CA448 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CA50263094CC006CA448 /* EditView.swift */; };
+		8429CA5426309841006CA448 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CA5326309841006CA448 /* Result.swift */; };
+		8429CA5726309D23006CA448 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CA5626309D23006CA448 /* MKPointAnnotation-Codable.swift */; };
 		8479CEDB26307A0E005B77CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479CEDA26307A0E005B77CB /* AppDelegate.swift */; };
 		8479CEDD26307A0E005B77CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479CEDC26307A0E005B77CB /* SceneDelegate.swift */; };
 		8479CEDF26307A0E005B77CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479CEDE26307A0E005B77CB /* ContentView.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8429CA4A26308905006CA448 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8429CA4D26309429006CA448 /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		8429CA50263094CC006CA448 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		8429CA5326309841006CA448 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		8429CA5626309D23006CA448 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 		8479CED726307A0D005B77CB /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8479CEDA26307A0E005B77CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8479CEDC26307A0E005B77CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +66,14 @@
 		8479CED926307A0D005B77CB /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				8429CA4D26309429006CA448 /* MKPointAnnotation-ObservableObject.swift */,
+				8429CA50263094CC006CA448 /* EditView.swift */,
+				8429CA5626309D23006CA448 /* MKPointAnnotation-Codable.swift */,
+				8429CA5326309841006CA448 /* Result.swift */,
 				8479CEDA26307A0E005B77CB /* AppDelegate.swift */,
 				8479CEDC26307A0E005B77CB /* SceneDelegate.swift */,
 				8479CEDE26307A0E005B77CB /* ContentView.swift */,
+				8429CA4A26308905006CA448 /* MapView.swift */,
 				8479CEE026307A0E005B77CB /* Assets.xcassets */,
 				8479CEE526307A0E005B77CB /* LaunchScreen.storyboard */,
 				8479CEE826307A0E005B77CB /* Info.plist */,
@@ -146,7 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8479CEDB26307A0E005B77CB /* AppDelegate.swift in Sources */,
+				8429CA4B26308905006CA448 /* MapView.swift in Sources */,
+				8429CA51263094CC006CA448 /* EditView.swift in Sources */,
 				8479CEDD26307A0E005B77CB /* SceneDelegate.swift in Sources */,
+				8429CA5426309841006CA448 /* Result.swift in Sources */,
+				8429CA4E26309429006CA448 /* MKPointAnnotation-ObservableObject.swift in Sources */,
+				8429CA5726309D23006CA448 /* MKPointAnnotation-Codable.swift in Sources */,
 				8479CEDF26307A0E005B77CB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
